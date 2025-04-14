@@ -637,6 +637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaterBlock_50m
       objectReference: {fileID: 0}
+    - target: {fileID: 1507636620937791836, guid: 7097ba7ba649e1f41bba232312bdcbd8, type: 3}
+      propertyPath: m_Layer
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1364,15 +1368,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4224555387477795492, guid: 1f77219281cba0a46828b7b111997a48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 263.2
+      value: 460.8
       objectReference: {fileID: 0}
     - target: {fileID: 4224555387477795492, guid: 1f77219281cba0a46828b7b111997a48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 85.2
+      value: 65.42
       objectReference: {fileID: 0}
     - target: {fileID: 4224555387477795492, guid: 1f77219281cba0a46828b7b111997a48, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 174.3
+      value: 423.79
       objectReference: {fileID: 0}
     - target: {fileID: 4224555387477795492, guid: 1f77219281cba0a46828b7b111997a48, type: 3}
       propertyPath: m_LocalRotation.w
