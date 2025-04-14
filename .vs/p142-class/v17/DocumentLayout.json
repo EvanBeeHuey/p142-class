@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\assets\\scripts\\utilities\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|c:\\users\\emma uwu\\documents\\toronto film school\\vgp142 - cross-platform programming 2\\unity projects\\p142-class\\assets\\scripts\\utilities\\endscreentemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities\\endscreentemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|c:\\users\\emma uwu\\documents\\toronto film school\\vgp142 - cross-platform programming 2\\unity projects\\p142-class\\assets\\scripts\\utilities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\assets\\scripts\\utilities\\levelend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities\\levelend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\assets\\scripts\\utilities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Library\\PackageCache\\com.unity.render-pipelines.core\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.core\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\assets\\scripts\\utilities\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -22,24 +34,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\Player.cs",
-              "ToolTip": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Utilities\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EndscreenTemp.cs",
+              "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\EndscreenTemp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\EndscreenTemp.cs",
+              "ToolTip": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\EndscreenTemp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utilities\\EndscreenTemp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T21:01:39.333Z",
+              "WhenOpened": "2025-04-14T01:36:57.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RenderPipelineGlobalSettingsUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Library\\PackageCache\\com.unity.render-pipelines.core\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.core\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs",
+              "ToolTip": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Library\\PackageCache\\com.unity.render-pipelines.core\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.core\\Runtime\\RenderPipeline\\RenderPipelineGlobalSettingsUtils.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAcwIkAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T00:47:37.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\Player.cs",
+              "ToolTip": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utilities\\Player.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T21:01:39.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TerrainLit.shader",
               "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
@@ -52,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Bootstrapper.cs",
               "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\Bootstrapper.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\Bootstrapper.cs",
@@ -60,7 +97,25 @@
               "RelativeToolTip": "Assets\\Scripts\\Utilities\\Bootstrapper.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAowCUAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T18:37:38.865Z",
+              "WhenOpened": "2025-04-07T18:37:38.865Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelEnd.cs",
+              "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\LevelEnd.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\LevelEnd.cs",
+              "ToolTip": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\LevelEnd.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utilities\\LevelEnd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T01:33:40.183Z",
               "EditorCaption": ""
             }
           ]
