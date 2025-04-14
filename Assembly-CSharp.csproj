@@ -71,8 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
+    <None Include="Assets\ScannedRocks\BonusShaders\Old\SnowOnRockShader.shader" />
     <None Include="Assets\Stylized Fences Free\Redme.txt" />
-    <None Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
+    <None Include="Assets\ScannedRocks\BonusShaders\New\OnTheTopShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
