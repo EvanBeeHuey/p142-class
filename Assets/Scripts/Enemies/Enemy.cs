@@ -1,18 +1,12 @@
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))]
-public abstract class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    protected SpriteRenderer sr;
     protected int health;
     [SerializeField] protected int maxHealth;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected virtual void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
-
-
         if (maxHealth <= 0) maxHealth = 5;
 
         health = maxHealth;

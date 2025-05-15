@@ -47,12 +47,9 @@ public class BushShoot : Enemy
     {
         if (distance <= radar)
         {
-            sr.color = Color.red;
             if (IsPlayerLookingAtMe()) 
                 CheckFire();
         }
-        else
-            sr.color = Color.white;
     }
 
     void CheckFire()
