@@ -104,7 +104,7 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
         float hInput = direction.x;
         float vInput = direction.y;
 
-        Debug.Log(velocity.magnitude);
+        //Debug.Log(velocity.magnitude);
 
         UpdateCharacterVelocity();
 

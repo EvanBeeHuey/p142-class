@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\assets\\scripts\\enemies\\bushshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\assets\\scripts\\enemies\\bushmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\bushmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|c:\\users\\emma uwu\\documents\\toronto film school\\vgp142 - cross-platform programming 2\\unity projects\\p142-class\\assets\\scripts\\enemies\\bushshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\bushshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|c:\\users\\emma uwu\\documents\\toronto film school\\vgp142 - cross-platform programming 2\\unity projects\\p142-class\\assets\\scripts\\utilities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\assets\\scripts\\mechanics\\shootprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mechanics\\shootprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|c:\\users\\emma uwu\\documents\\toronto film school\\vgp142 - cross-platform programming 2\\unity projects\\p142-class\\assets\\scripts\\utilities\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\assets\\scripts\\utilities\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|c:\\users\\emma uwu\\documents\\toronto film school\\vgp142 - cross-platform programming 2\\unity projects\\p142-class\\assets\\scripts\\utilities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03D4A8B5-1892-A117-3517-CC38D8223AB2}|Assembly-CSharp.csproj|C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,8 +50,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BushMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Enemies\\BushMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\BushMovement.cs",
+              "ToolTip": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Enemies\\BushMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\BushMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T22:07:46.804Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -63,20 +80,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BushShoot.cs",
               "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Enemies\\BushShoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\BushShoot.cs",
               "ToolTip": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Enemies\\BushShoot.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\BushShoot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T16:50:38.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProjectileBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Mechanics\\ProjectileBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\ProjectileBehaviour.cs",
@@ -88,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ShootProjectile.cs",
               "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Mechanics\\ShootProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mechanics\\ShootProjectile.cs",
@@ -96,18 +113,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Mechanics\\ShootProjectile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:41:38.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T15:41:38.429Z"
             }
           ]
         },
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "InGame.cs",
               "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Menus\\ConcreteMenus\\InGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\ConcreteMenus\\InGame.cs",
@@ -119,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LevelEnd.cs",
               "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\LevelEnd.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\LevelEnd.cs",
@@ -131,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -139,34 +155,32 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:56:03.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T15:56:03.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\Player.cs",
               "ToolTip": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Utilities\\Player.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwF8AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAmwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T21:01:39.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Bootstrapper.cs",
               "DocumentMoniker": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\Bootstrapper.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities\\Bootstrapper.cs",
               "ToolTip": "C:\\Users\\Emma uwu\\Documents\\Toronto Film School\\VGP142 - Cross-Platform Programming 2\\Unity Projects\\p142-class\\Assets\\Scripts\\Utilities\\Bootstrapper.cs",
               "RelativeToolTip": "Assets\\Scripts\\Utilities\\Bootstrapper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T18:37:38.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T18:37:38.865Z"
             }
           ]
         }
