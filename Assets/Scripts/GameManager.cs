@@ -3,12 +3,14 @@ using UnityEngine.SceneManagement;
 using System;
 using UnityEngine.Events;
 
+[DefaultExecutionOrder(-1)]
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
+    public static Player player;
 
     public static GameManager Instance => _instance;
-    public event Action<Player> OnPlayerSpawned;
+    //public event Action<Player> OnPlayerSpawned;
     public UnityEvent<int> OnLifeValueChanged;
     public UnityEvent<int> OnScoreValueChanged;
 
@@ -40,11 +42,11 @@ public class GameManager : MonoBehaviour
     }
     #endregion
 
-    #region PLAYER CONTROLLER INFO
-    [SerializeField] private Player playerPrefab;
-    private Player _playerInstance;
-    public Player PlayerInstance => _playerInstance;
-    #endregion
+    //#region PLAYER CONTROLLER INFO
+    //[SerializeField] private Player playerPrefab;
+    //private Player _playerInstance;
+    //public Player PlayerInstance => _playerInstance;
+    //#endregion
 
     private MenuController currentMenuController;
     private Transform currentCheckpoint;
@@ -81,15 +83,15 @@ public class GameManager : MonoBehaviour
 
     void Respawn()
     {
-        _playerInstance.transform.position = currentCheckpoint.position;
+        player.transform.position = currentCheckpoint.position;
     }
 
-    public void InstantiatePlayer(Transform spawnLocation)
-    {
-        _playerInstance = Instantiate(playerPrefab, spawnLocation.position, Quaternion.identity);
-        currentCheckpoint = spawnLocation;
-        OnPlayerSpawned?.Invoke(_playerInstance);
-    }
+    //public void InstantiatePlayer(Transform spawnLocation)
+    //{
+    //    _playerInstance = Instantiate(playerPrefab, spawnLocation.position, Quaternion.identity);
+    //    currentCheckpoint = spawnLocation;
+    //    OnPlayerSpawned?.Invoke(_playerInstance);
+    //}
 
     public void UpdateCheckpoint(Transform updatedCheckpoint)
     {

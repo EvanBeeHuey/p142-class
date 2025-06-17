@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[DefaultExecutionOrder(-1)]
 public class Player : MonoBehaviour, ProjectActions.IOverworldActions
 {
     ProjectActions input;
@@ -48,6 +49,8 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
         initJumpVelocity = -(gravity * timeToJumpApex);
 
         Cursor.lockState = CursorLockMode.Locked;
+
+        GameManager.player = this;
     }
 
     void OnEnable()

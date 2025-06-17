@@ -23,15 +23,15 @@ public class BushShoot : Enemy
             radar = 5;
     }
 
-    private void OnEnable()
-    {
-        GameManager.Instance.OnPlayerSpawned += OnPlayerSpawnedCallback;
-    }
+    //private void OnEnable()
+    //{
+    //    GameManager.Instance.OnPlayerSpawned += OnPlayerSpawnedCallback;
+    //}
 
-    private void OnDisable()
-    {
-        GameManager.Instance.OnPlayerSpawned -= OnPlayerSpawnedCallback;
-    }
+    //private void OnDisable()
+    //{
+    //    GameManager.Instance.OnPlayerSpawned -= OnPlayerSpawnedCallback;
+    //}
 
     private void OnPlayerSpawnedCallback(Player controller) => playerTransform = controller.transform;
 

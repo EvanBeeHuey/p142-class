@@ -2,52 +2,49 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    //Detects manually if obj is being seen by the main camera
-    GameObject EnemyM;
-    Collider enemyMcollider;
+    Transform target;
 
-    Camera cam;
-    Plane[] planes;
+    protected float moveSpeed = 4.0f;
+    public LayerMask groundMask = -1;
 
-    protected int health;
-    [SerializeField] protected int maxHealth;
+    bool visible = true;
+
 
     protected virtual void Start()
     {
-        cam = Camera.main;
-        planes = GeometryUtility.CalculateFrustumPlanes(cam);
-        enemyMcollider = GetComponent<Collider>();
+        target = GameManager.player.transform;
 
-        if (maxHealth <= 0) maxHealth = 5;
-
-        health = maxHealth;
-    }
-
-    public virtual void TakeDamage(int DamageValue, DamageType damageType = DamageType.Default)
-    {
-        health -= DamageValue;
-
-        if (health <= 0)
-        {
-            if (transform.parent != null) Destroy(transform.parent.gameObject, 0.5f);
-            else Destroy(gameObject, 0.8f);
-        }
     }
 
     private void Update()
     {
-        if (GeometryUtility.TestPlanesAABB(planes, enemyMcollider.bounds))
-        {
-            Debug.Log(EnemyM.name + " has been detected!");
-        }
-        else
-        {
-            Debug.Log("Nothing has been detected");
-        }
-    }
-}
+        if (visible) 
+            return;
 
-public enum DamageType
-{
-    Default
+        Debug.Log("Mannequin invisible!");
+
+        Vector3 position = transform.position;
+
+        Vector3 difference = target.position - position;
+        Vector3 direction = difference.normalized;
+
+        position += moveSpeed * Time.deltaTime * direction;
+
+        //Vector3 origin = new(position.x, 100f, position.z);
+        //Ray ray = new(origin, Vector3.down);
+        //if (Physics.Raycast(ray, out RaycastHit hit, 200f, groundMask))
+        //    position.y = Mathf.Max(hit.point.y, position.y);
+
+        transform.position = position;
+    }
+
+    private void OnBecameVisible()
+    {
+        visible = true;
+    }
+
+    private void OnBecameInvisible()
+    {
+        visible = false;
+    }
 }
