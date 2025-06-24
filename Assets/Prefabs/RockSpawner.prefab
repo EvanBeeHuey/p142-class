@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7324513992222727680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 845015890749340123}
+  - component: {fileID: 8644237803625312475}
+  m_Layer: 0
+  m_Name: RockSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &845015890749340123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7324513992222727680}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 264.91916, y: 81.41042, z: 158.55992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8644237803625312475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7324513992222727680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c48baf33238454195d33584f022fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomRocks:
+  - {fileID: 5482815981723166806, guid: 916b5c341f15b664595c730c1ba558db, type: 3}
+  - {fileID: 1098394999837113697, guid: ccfbce29816c2194f81003730afae5c8, type: 3}
+  - {fileID: 1075463712287955896, guid: 4b40bede904201e48852bdefe2e33599, type: 3}
+  - {fileID: 6190013454129289556, guid: 7c1cf817f6d1d354fbef4266c0c93443, type: 3}
+  - {fileID: 6145085122203708863, guid: ef1640ea3257fe048875b9c57d0d6ea6, type: 3}
+  - {fileID: 5155085031281174643, guid: b748ed52bce77474ebd693e3446e2ca2, type: 3}
+  - {fileID: 1611139644028283319, guid: 231230b8fe03cfb47991c6eedf83af70, type: 3}
+  - {fileID: 8219061091873323497, guid: 0178856fcc975dd4797fcde54118aa92, type: 3}
+  - {fileID: 1173224724540094691, guid: 5ed85874a78a0554d97ad63a20b1e364, type: 3}
+  - {fileID: 9067959694182564141, guid: eea90095d95b33b4fac89068ea43c1c5, type: 3}
+  numOf: 10

@@ -30,7 +30,12 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
     float vel;
 
     //Character Health
-    private float playerHealth = 20.0f;
+    public float playerHealth = 20.0f;
+
+    //Player Attacks
+    Vector3 attackCenter = new(0f, 0f, 0.75f);
+    Vector3 attackSize = new(1.0f, 2.0f, 0.5f);
+    public LayerMask attackMask;
 
     //calculated based on our jump values
     private float gravity;
@@ -104,17 +109,69 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
 
     void FixedUpdate()
     {
+        AnimatorStateInfo animState = anim.GetCurrentAnimatorStateInfo(0);
+        if (playerHealth <= 0f && !animState.IsName("Dying"))
+        {
+            anim.Play("Dying");
+            Debug.Log("Player died");
+            return;
+        }
+
+        if (playerHealth <= 0f)
+                return;
+
         UpdateMouseLook();
         UpdateDirection();
 
         float hInput = direction.x;
         float vInput = direction.y;
 
-        //Debug.Log(velocity.magnitude);
-
         UpdateCharacterVelocity();
 
         cc.Move(velocity);
+
+        //animations
+        if (Input.GetMouseButtonDown(0)) // 0 = left click, 1 = right click, 2 = middle click
+        {
+            if (animState.IsName("Locomotion"))
+            {
+                anim.SetTrigger("PlayerPunch");
+                Vector3 attackOverlap = transform.position + transform.rotation * attackCenter;
+                Collider[] attackColliders = Physics.OverlapBox(attackOverlap, attackSize, transform.rotation, attackMask);
+                foreach (Collider col in attackColliders)
+                {
+                    Enemy e = col.GetComponent<Enemy>();
+                    if (e.enemyHealth > 0f)
+                    {
+                        e.HandleAttackCollisionPunch();
+                    }
+                }
+                Debug.Log("Player punched enemy");
+            }
+            Debug.Log("Pressed right click");
+            return;
+        }
+
+        if (Input.GetMouseButtonDown(1)) // right click
+        {
+            if (animState.IsName("Locomotion"))
+            {
+                anim.SetTrigger("PlayerKick");
+                Vector3 attackOverlap = transform.position + transform.rotation * attackCenter;
+                Collider[] attackColliders = Physics.OverlapBox(attackOverlap, attackSize, transform.rotation, attackMask);
+                foreach (Collider col in attackColliders)
+                {
+                    Enemy e = col.GetComponent<Enemy>();
+                    if (e.enemyHealth > 0f)
+                    {
+                        e.HandleAttackCollisionKick();
+                    }
+                }
+                Debug.Log("Player kicked enemy");
+            }
+            Debug.Log("Pressed right click");
+            return;
+        }
     }
 
     private void UpdateCharacterVelocity()
@@ -158,4 +215,10 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
         direction = (transform.right * direction.x + transform.forward * direction.z);
     }
 
+    public void HandleAttackCollision()
+    {
+        playerHealth -= 2.0f;
+        anim.Play("Taking Punch", 0, 0f);
+        Debug.Log("Player lost 2 health");
+    }
 }
