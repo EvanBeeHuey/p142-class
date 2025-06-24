@@ -61,24 +61,30 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MusicScripts\Music.cs" />
     <Compile Include="Assets\Scripts\Utilities\Bootstrapper.cs" />
     <Compile Include="Assets\Scripts\Enemies\BushShoot.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\PowerupHealth.cs" />
     <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
     <Compile Include="Assets\Scripts\Menus\ConcreteMenus\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Utilities\LevelEnd.cs" />
     <Compile Include="Assets\Scripts\Menus\BaseMenu.cs" />
     <Compile Include="Assets\Scripts\Mechanics\ShootProjectile.cs" />
     <Compile Include="Assets\Scripts\Utilities\EndscreenTemp.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\PowerupYellow.cs" />
+    <Compile Include="Assets\Scripts\Utilities\QuitButton.cs" />
     <Compile Include="Assets\PBR_Grass_Textures\Scripts\CameraFreeflight.cs" />
     <Compile Include="Assets\Scripts\Menus\ConcreteMenus\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Menus\MenuController.cs" />
     <Compile Include="Assets\Scripts\Menus\ConcreteMenus\InGame.cs" />
+    <Compile Include="Assets\Scripts\RandomSpawns\SpawnHealth.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
     <Compile Include="Assets\Scripts\Menus\ConcreteMenus\CreditsMenu.cs" />
     <Compile Include="Assets\Aztech Games\GemsAndCrystals\Script\Rotate.cs" />
     <Compile Include="Assets\Scripts\Mechanics\ProjectileBehaviour.cs" />
     <Compile Include="Assets\Scripts\Enemies\BushMovement.cs" />
+    <Compile Include="Assets\Scripts\Utilities\PlayButton.cs" />
     <Compile Include="Assets\Scripts\Mechanics\ScoringSystem.cs" />
     <Compile Include="Assets\Scripts\Menus\ConcreteMenus\PauseMenu.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />

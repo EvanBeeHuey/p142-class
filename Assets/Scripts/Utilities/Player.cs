@@ -9,6 +9,11 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
     CharacterController cc;
     Rigidbody rb;
     Animator anim;
+    public AudioSource audioSource;
+    public AudioClip hitsound;
+    public AudioClip pickup;
+    public AudioClip jump;
+    public AudioClip death;
 
     [Header("Movement Variables")]
     [SerializeField] private float initSpeed = 5.0f;
@@ -51,6 +56,7 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
         //playerCamera = GetComponentInChildren<Camera>();
         cc = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         timeToJumpApex = jumpTime / 2;
         gravity = (-2 * jumpHeight) / Mathf.Pow(timeToJumpApex, 2);
@@ -113,6 +119,8 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
         if (playerHealth <= 0f && !animState.IsName("Dying"))
         {
             anim.Play("Dying");
+            audioSource.clip = death;
+            audioSource.Play();
             Debug.Log("Player died");
             return;
         }
@@ -190,7 +198,12 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
 
     private float CheckJump()
     {
-        if (isJumpPressed) return initJumpVelocity;
+        if (isJumpPressed)
+        {
+            audioSource.clip = jump;
+            audioSource.Play();
+            return initJumpVelocity;
+        }
         else return -cc.minMoveDistance;
     }
 
@@ -218,6 +231,8 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
     public void HandleAttackCollision()
     {
         playerHealth -= 2.0f;
+        audioSource.clip = hitsound;
+        audioSource.Play();
         anim.Play("Taking Punch", 0, 0f);
         Debug.Log("Player lost 2 health");
     }

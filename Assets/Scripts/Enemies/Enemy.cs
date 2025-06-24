@@ -5,9 +5,12 @@ public class Enemy : MonoBehaviour
 {
     Transform target;
     Animator animEnemy;
+    AudioSource audioSource;
+    public AudioClip hitsound;
+    public AudioClip death;
 
     //enemy movement
-    protected float moveSpeed = 4.0f;
+    public float moveSpeed = 4.0f;
 
     //enemy health
     public float enemyHealth = 10.0f;
@@ -16,12 +19,18 @@ public class Enemy : MonoBehaviour
     Vector3 attackSize = new (1.0f, 2.0f, 0.5f);
     public LayerMask attackMask;
 
+    //drops
+    public GameObject powerup; 
+
     Player player;
 
     protected virtual void Start()
     {
+        powerup = Resources.Load<GameObject>("EnemyDrop");
+
         target = GameManager.player.transform;
         animEnemy = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         player = FindAnyObjectByType<Player>();
     }
@@ -32,7 +41,10 @@ public class Enemy : MonoBehaviour
         if (enemyHealth <= 0f && !animState.IsName("Dying"))
         {
             animEnemy.Play("Dying");
-            ScoringSystem.enemyKilled += 1.0f;
+            audioSource.clip = death;
+            audioSource.Play();
+            ScoringSystem.score += 1.0f;
+            Instantiate(powerup, transform.position + Vector3.up, Quaternion.identity);
             Debug.Log("Enemy died");
             return;
         }
@@ -88,6 +100,8 @@ public class Enemy : MonoBehaviour
     public void HandleAttackCollisionPunch()
     {
         enemyHealth -= 3.0f;
+        audioSource.clip = hitsound;
+        audioSource.Play();
         animEnemy.Play("Taking Punch", 0, 0f);
         Debug.Log("Enemy lost 3 health from punch");
     }
@@ -95,6 +109,8 @@ public class Enemy : MonoBehaviour
     public void HandleAttackCollisionKick()
     {
         enemyHealth -= 4.0f;
+        audioSource.clip = hitsound;
+        audioSource.Play();
         animEnemy.Play("Kicked", 0, 0f);
         Debug.Log("Enemy lost 4 health from kick");
     }

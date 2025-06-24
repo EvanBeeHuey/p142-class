@@ -3,8 +3,7 @@ using UnityEngine.UIElements;
 
 public class ScoringSystem : MonoBehaviour
 {
-    private float elapsedTime = 0f;
-    public float score = 0f;
+    public static float score = 0f;
     private float scoreMultiplier = 10f;
     Player player;
 
@@ -22,9 +21,9 @@ public class ScoringSystem : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = "Score: " + score;
+        scoreText.text = "Score: " + (score * scoreMultiplier);
         healthText.text = "Health: " + player.playerHealth;
-        score = Mathf.FloorToInt(enemyKilled * scoreMultiplier);
+        //score = Mathf.FloorToInt(enemyKilled * scoreMultiplier);
         Debug.Log("Score: " + score);
     }
 }
