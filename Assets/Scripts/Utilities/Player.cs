@@ -29,6 +29,9 @@ public class Player : MonoBehaviour, ProjectActions.IOverworldActions
     Vector3 velocity;
     float vel;
 
+    //Character Health
+    private float playerHealth = 20.0f;
+
     //calculated based on our jump values
     private float gravity;
     private bool isJumpPressed = false;

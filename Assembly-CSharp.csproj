@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Utilities\Bootstrapper.cs" />
     <Compile Include="Assets\Scripts\Enemies\BushShoot.cs" />
+    <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
     <Compile Include="Assets\Scripts\Menus\ConcreteMenus\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Utilities\LevelEnd.cs" />
     <Compile Include="Assets\Scripts\Menus\BaseMenu.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Aztech Games\GemsAndCrystals\Script\Rotate.cs" />
     <Compile Include="Assets\Scripts\Mechanics\ProjectileBehaviour.cs" />
     <Compile Include="Assets\Scripts\Enemies\BushMovement.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\ScoringSystem.cs" />
     <Compile Include="Assets\Scripts\Menus\ConcreteMenus\PauseMenu.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\Scripts\Input\ProjectActions.cs" />
@@ -93,6 +95,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets\Mushroom Forest\Shaders\Normal-BumpSpecRim.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Fonts\Documentation\JazzCreateAltKeys_BubbleFont.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\FREE Fantasy Trees\Materials\Leaves.shader" />
@@ -108,7 +111,9 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Stylized Fences Free\Redme.txt" />
+    <None Include="Assets\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\UI\UI_HUD.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />

@@ -3,25 +3,48 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     Transform target;
+    Animator animEnemy;
 
+    //enemy movement
     protected float moveSpeed = 4.0f;
-    public LayerMask groundMask = -1;
 
-    bool visible = true;
+    //enemy health
+    private float enemyHealth = 10.0f;
 
+    Player player;
 
     protected virtual void Start()
     {
         target = GameManager.player.transform;
+        animEnemy = GetComponent<Animator>();
 
+        player = FindAnyObjectByType<Player>();
     }
 
     private void Update()
     {
-        if (visible) 
+        float distToPlayer = (transform.position - player.transform.position).magnitude;
+        if (distToPlayer < 1.0f)
+        {
+            AnimatorStateInfo animState = animEnemy.GetCurrentAnimatorStateInfo(0);
+            if (animState.IsName("Locomotion"))
+            {
+                animEnemy.SetTrigger("EnemyAttack");
+            }
             return;
+        }
 
-        Debug.Log("Mannequin invisible!");
+        Vector3 directionToTarget = (transform.position - player.transform.position).normalized;
+        float dotProduct = Vector3.Dot(player.transform.forward, directionToTarget);
+
+        float thresh = 0.5f;
+        if (dotProduct > thresh)
+        {
+            animEnemy.SetFloat("EnemyVelocity", 0f);
+            return;
+        }
+
+        transform.LookAt(player.transform);
 
         Vector3 position = transform.position;
 
@@ -30,21 +53,9 @@ public class Enemy : MonoBehaviour
 
         position += moveSpeed * Time.deltaTime * direction;
 
-        //Vector3 origin = new(position.x, 100f, position.z);
-        //Ray ray = new(origin, Vector3.down);
-        //if (Physics.Raycast(ray, out RaycastHit hit, 200f, groundMask))
-        //    position.y = Mathf.Max(hit.point.y, position.y);
-
         transform.position = position;
-    }
 
-    private void OnBecameVisible()
-    {
-        visible = true;
-    }
-
-    private void OnBecameInvisible()
-    {
-        visible = false;
+        //animations
+        animEnemy.SetFloat("EnemyVelocity", 1.0f);
     }
 }
